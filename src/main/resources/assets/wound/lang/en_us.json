@@ -1,0 +1,5 @@
+{
+  "effect.wound.wound_resistance": "Wound Resistance",
+  "item.wound.heavy_shield": "Heavy Shield",
+  "tooltip.heavy_shield.desc": "Can protect more than %d damage"
+}

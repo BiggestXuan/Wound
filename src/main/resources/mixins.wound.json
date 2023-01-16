@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "biggestxuan.wound.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "emc_stage.refmap.json",
+  "mixins": [
+    "MixinFoodStats",
+    "MixinLivingEntity",
+    "MixinPlayerEntity"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

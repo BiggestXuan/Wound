@@ -1,0 +1,5 @@
+{
+  "effect.wound.wound_resistance": "外伤抗性",
+  "item.wound.heavy_shield": "重型护盾",
+  "tooltip.heavy_shield.desc": "能够抵挡超过 %d 以上的伤害"
+}
