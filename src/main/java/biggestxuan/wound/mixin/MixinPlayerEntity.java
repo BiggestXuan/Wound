@@ -17,7 +17,7 @@ public abstract class MixinPlayerEntity {
     @Inject(method = "isHurt",at = @At("HEAD"),cancellable = true)
     public void isHurt(CallbackInfoReturnable<Boolean> cir){
         PlayerEntity player = (PlayerEntity) (Object) this;
-        cir.setReturnValue(player.getHealth() > 0 && player.getHealth() < MathUtils.getPlayerMaxHealth(player)*0.99f);
+        cir.setReturnValue(player.getHealth() > 0 && player.getHealth() < MathUtils.getPlayerMaxHealth(player)*0.999f);
         cir.cancel();
     }
 }
